@@ -1,3 +1,4 @@
+/* Portfolio Mathieu Padovano - feuille de style complète */
 :root {
   --bg: #f5f5f7;
   --surface: #ffffff;
@@ -86,15 +87,15 @@ button { color: inherit; }
 .hero-glow { position:absolute; border-radius:50%; filter:blur(10px); pointer-events:none; }
 .glow-one { width:620px; height:620px; right:-220px; top:5%; background:radial-gradient(circle,rgba(90,119,255,.18),transparent 70%); }
 .glow-two { width:700px; height:700px; left:16%; bottom:-470px; background:radial-gradient(circle,rgba(117,102,255,.12),transparent 70%); }
-.home-hero-grid { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(340px,.72fr); gap:clamp(54px,8vw,120px); align-items:center; position:relative; z-index:1; }
+.home-hero-grid { display:grid; grid-template-columns:minmax(0,1.28fr) minmax(280px,.56fr); gap:clamp(48px,7vw,100px); align-items:center; position:relative; z-index:1; }
 .home-hero h1 { max-width:930px; margin:0 0 34px; font-size:clamp(58px,8vw,116px); line-height:.9; letter-spacing:-.075em; }
 .home-hero h1 em { color:var(--muted); font-style:normal; }
 .hero-lead { max-width:690px; margin:0 0 38px; color:var(--muted); font-size:clamp(19px,2vw,25px); letter-spacing:-.015em; }
 .hero-actions { display:flex; flex-wrap:wrap; gap:12px; }
 .hero-meta { display:flex; flex-wrap:wrap; gap:16px 28px; margin-top:42px; color:var(--muted); font-size:12px; letter-spacing:.07em; text-transform:uppercase; }
-.portrait-shell { width:min(100%,430px); margin-left:auto; padding:12px; border-radius:var(--radius-lg); background:rgba(255,255,255,.62); border:1px solid rgba(255,255,255,.9); box-shadow:var(--shadow); transform:rotate(1.5deg); transition:.7s var(--ease); backdrop-filter:blur(20px); }
+.portrait-shell { width:min(100%,340px); margin-left:auto; padding:10px; border-radius:34px; background:rgba(255,255,255,.68); border:1px solid rgba(255,255,255,.92); box-shadow:0 24px 70px rgba(12,14,20,.12); transform:rotate(1deg); transition:.7s var(--ease); backdrop-filter:blur(20px); }
 .portrait-shell:hover { transform:rotate(0) translateY(-8px); }
-.portrait-shell > img { width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:calc(var(--radius-lg) - 10px); }
+.portrait-shell > img { width:100%; aspect-ratio:1/1.05; object-fit:cover; object-position:center 38%; border-radius:25px; }
 .portrait-badge { padding:18px 14px 11px; display:grid; gap:2px; }
 .portrait-badge span { font-size:17px; font-weight:760; }
 .portrait-badge small { color:var(--muted); }
@@ -305,7 +306,7 @@ button { color: inherit; }
   .section { padding:105px 0; }
   .home-hero { min-height:auto; padding-top:150px; }
   .home-hero-grid,.inner-hero-grid,.competence-hero-grid,.project-grid { grid-template-columns:1fr; }
-  .home-hero-media { max-width:520px; }
+  .home-hero-media { max-width:360px; }
   .portrait-shell { margin-left:0; }
   .inner-hero { min-height:auto; padding-top:150px; }
   .about-portrait { max-width:500px; }
@@ -334,6 +335,10 @@ button { color: inherit; }
   .hero-actions { flex-direction:column; align-items:stretch; }
   .hero-actions .button { width:100%; }
   .hero-meta { margin-top:28px; }
+  .home-hero-media { width:100%; max-width:300px; margin-inline:auto; }
+  .portrait-shell { width:100%; margin-inline:auto; }
+  .portrait-badge { padding:15px 11px 9px; }
+  .portrait-badge span { font-size:16px; }
   .scroll-cue { display:none; }
   .intro-grid,.split-intro,.bilan-grid { grid-template-columns:1fr; gap:30px; }
   .competency-grid,.career-grid,.growth-grid,.featured-grid,.gallery-grid { grid-template-columns:1fr; }
