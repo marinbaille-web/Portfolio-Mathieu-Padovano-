@@ -552,7 +552,13 @@ p {
     );
 }
 
-.portrait-placeholder span {
+.portrait-placeholder img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center 42%;
+}
   color: rgba(255, 255, 255, 0.92);
 
   font-size: clamp(70px, 10vw, 130px);
