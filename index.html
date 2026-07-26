@@ -1,430 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
-  <meta
-    name="description"
-    content="Portfolio de Mathieu Padovano, étudiant en BUT Techniques de Commercialisation, parcours Marketing et Management du Point de Vente."
-  >
-
-  <title>Mathieu Padovano — Portfolio</title>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Mathieu Padovano, étudiant en BUT Techniques de Commercialisation, parcours Marketing et Management du Point de Vente.">
+  <meta name="theme-color" content="#0b0c10">
+  <meta property="og:title" content="Mathieu Padovano — Portfolio commerce, retail et management">
+  <meta property="og:description" content="Portfolio de Mathieu Padovano, étudiant en BUT Techniques de Commercialisation, parcours Marketing et Management du Point de Vente.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profil/mathieu-padovano-portrait.webp">
+  <title>Mathieu Padovano — Portfolio commerce, retail et management</title>
+  <link rel="icon" href="assets/images/profil/mathieu-padovano-portrait.webp" type="image/webp">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
+<body class="home-page">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
 
-<body>
+<header class="site-header">
+  <nav class="navbar" aria-label="Navigation principale">
+    <a class="brand" href="index.html" aria-label="Accueil de Mathieu Padovano"><span>MP</span><i>.</i></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <div class="nav-links" id="main-nav"><a href="index.html" class="is-current">Accueil</a><a href="a-propos.html" class="">À propos</a><a href="index.html#competences" class="">Compétences</a><a href="bilan.html" class="">Bilan</a><a href="annexes.html" class="">Traces</a></div>
+    <a class="nav-cta" href="mailto:mathieupadovano@gmail.com">Contact</a>
+  </nav>
+</header>
 
-  <!-- Navigation -->
-  <header class="site-header">
-    <nav class="navbar" aria-label="Navigation principale">
-
-      <a class="brand" href="index.html" aria-label="Retour à l’accueil">
-        MP.
-      </a>
-
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-label="Ouvrir le menu"
-        aria-expanded="false"
-        aria-controls="main-navigation"
-      >
-        <span></span>
-        <span></span>
-      </button>
-
-      <div class="nav-links" id="main-navigation">
-        <a href="#accueil">Accueil</a>
-        <a href="#a-propos">À propos</a>
-        <a href="#competences">Compétences</a>
-        <a href="#parcours">Parcours</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-    </nav>
-  </header>
-
-
-  <main>
-
-    <!-- Hero -->
-    <section class="hero" id="accueil">
-
-      <div class="hero-background" aria-hidden="true">
-        <div class="hero-orb hero-orb-one"></div>
-        <div class="hero-orb hero-orb-two"></div>
-      </div>
-
-      <div class="container hero-layout">
-
-        <div class="hero-content reveal">
-
-          <p class="eyebrow">
-            Portfolio · BUT Techniques de Commercialisation
-          </p>
-
-          <h1>
-            Comprendre les clients.<br>
-            Valoriser l’offre.<br>
-            <span>Développer la performance.</span>
-          </h1>
-
-          <p class="hero-introduction">
-            Je m’appelle Mathieu Padovano, étudiant en troisième année
-            de BUT Techniques de Commercialisation, parcours Marketing
-            et Management du Point de Vente.
-          </p>
-
-          <div class="hero-actions">
-
-            <a class="button button-primary" href="#competences">
-              Découvrir mon portfolio
-            </a>
-
-            <a class="button button-secondary" href="#a-propos">
-              En savoir plus
-            </a>
-
-          </div>
-
-        </div>
-
-
-        <div class="hero-visual reveal">
-
-  <div class="portrait-card">
-
-    <div class="portrait-placeholder">
-      <img
-        src="assets/images/profil/mathieu-padovano-portrait.webp"
-        alt="Portrait de Mathieu Padovano"
-        width="944"
-        height="1180"
-        loading="eager"
-        fetchpriority="high"
-      >
+<main id="contenu">
+<section class="home-hero">
+  <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+  <div class="container home-hero-grid">
+    <div class="home-hero-copy reveal">
+      <p class="eyebrow">Portfolio · BUT Techniques de Commercialisation</p>
+      <h1>Comprendre les clients.<br>Valoriser l’offre.<br><em>Développer la performance.</em></h1>
+      <p class="hero-lead">Je m’appelle Mathieu Padovano. Je construis mon expérience au croisement de la vente, du merchandising, du pilotage commercial et du management de proximité.</p>
+      <div class="hero-actions"><a class="button primary" href="#competences">Découvrir mes compétences</a><a class="button ghost" href="a-propos.html">Voir mon parcours</a></div>
+      <div class="hero-meta"><span>Marseille</span><span>2025–2026</span><span>Retail · Sport · Terrain</span></div>
     </div>
-
-    <div class="portrait-caption">
-      <p>Mathieu Padovano</p>
-      <span>Commerce · Retail · Management</span>
+    <div class="home-hero-media reveal">
+      <div class="portrait-shell">
+        <img src="assets/images/profil/mathieu-padovano-portrait.webp" alt="Portrait de Mathieu Padovano" width="944" height="1180" fetchpriority="high">
+        <div class="portrait-badge"><span>Mathieu Padovano</span><small>Commerce · Retail · Management</small></div>
+      </div>
     </div>
-
   </div>
-
-</div>
-
-        </div>
-
-      </div>
-
-      <a class="scroll-indicator" href="#a-propos">
-        <span>Découvrir</span>
-        <span class="scroll-line"></span>
-      </a>
-
-    </section>
-
-
-    <!-- À propos -->
-    <section class="section about-preview" id="a-propos">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">À propos</p>
-
-          <h2>
-            Une expérience construite au plus près du terrain.
-          </h2>
-
-        </div>
-
-
-        <div class="about-grid">
-
-          <div class="about-text reveal">
-
-            <p class="large-text">
-              Passionné par le commerce et la relation client, j’ai
-              développé mon expérience à travers plusieurs missions
-              en distribution, en vente et en management.
-            </p>
-
-            <p>
-              Mon alternance chez Intersport Marseille Grand Littoral
-              m’a permis de découvrir concrètement les enjeux du commerce
-              de détail, du pilotage d’un rayon et de l’accompagnement
-              des clients et des collaborateurs.
-            </p>
-
-            <a class="text-link" href="a-propos.html">
-              Découvrir mon parcours
-              <span aria-hidden="true">↗</span>
-            </a>
-
-          </div>
-
-
-          <div class="about-statistics reveal">
-
-            <article class="stat-card">
-              <strong>4</strong>
-              <span>compétences professionnelles</span>
-            </article>
-
-            <article class="stat-card">
-              <strong>3+</strong>
-              <span>univers d’expérience</span>
-            </article>
-
-            <article class="stat-card">
-              <strong>2026</strong>
-              <span>diplôme BUT TC</span>
-            </article>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- Compétences -->
-    <section class="section competencies" id="competences">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">Compétences</p>
-
-          <h2>
-            Quatre dimensions complémentaires du commerce.
-          </h2>
-
-          <p>
-            Des compétences développées grâce à mes expériences
-            professionnelles, universitaires et associatives.
-          </p>
-
-        </div>
-
-
-        <div class="competency-grid">
-
-          <a
-            class="competency-card competency-marketing reveal"
-            href="competences/marketing.html"
-          >
-            <span class="card-number">01</span>
-
-            <div class="card-content">
-              <p>Marketing</p>
-              <h3>Conduire les actions marketing</h3>
-              <span class="card-link">Explorer la compétence →</span>
-            </div>
-          </a>
-
-
-          <a
-            class="competency-card competency-sales reveal"
-            href="competences/vente.html"
-          >
-            <span class="card-number">02</span>
-
-            <div class="card-content">
-              <p>Vente</p>
-              <h3>Vendre une offre commerciale</h3>
-              <span class="card-link">Explorer la compétence →</span>
-            </div>
-          </a>
-
-
-          <a
-            class="competency-card competency-retail reveal"
-            href="competences/pilotage.html"
-          >
-            <span class="card-number">03</span>
-
-            <div class="card-content">
-              <p>Retail</p>
-              <h3>Piloter un espace de vente</h3>
-              <span class="card-link">Explorer la compétence →</span>
-            </div>
-          </a>
-
-
-          <a
-            class="competency-card competency-management reveal"
-            href="competences/management.html"
-          >
-            <span class="card-number">04</span>
-
-            <div class="card-content">
-              <p>Management</p>
-              <h3>Manager une équipe commerciale</h3>
-              <span class="card-link">Explorer la compétence →</span>
-            </div>
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- Expériences -->
-    <section class="section experiences" id="parcours">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">Expériences</p>
-
-          <h2>
-            Des contextes différents, une même culture du terrain.
-          </h2>
-
-        </div>
-
-
-        <div class="experience-list">
-
-          <article class="experience-item reveal">
-
-            <div class="experience-date">
-              2024 — 2026
-            </div>
-
-            <div class="experience-content">
-              <p>Intersport Marseille Grand Littoral</p>
-              <h3>Vente, merchandising et pilotage commercial</h3>
-              <span>
-                Alternance au sein du rayon chaussures.
-              </span>
-            </div>
-
-          </article>
-
-
-          <article class="experience-item reveal">
-
-            <div class="experience-date">
-              2022 — 2026
-            </div>
-
-            <div class="experience-content">
-              <p>Manhattan Hot Dog</p>
-              <h3>Commerce événementiel et management opérationnel</h3>
-              <span>
-                Participation à des événements nationaux majeurs.
-              </span>
-            </div>
-
-          </article>
-
-
-          <article class="experience-item reveal">
-
-            <div class="experience-date">
-              Formation
-            </div>
-
-            <div class="experience-content">
-              <p>BUT Techniques de Commercialisation</p>
-              <h3>Négociation, marketing et projets collectifs</h3>
-              <span>
-                Négociales, mises en situation et expériences associatives.
-              </span>
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- Contact -->
-    <section class="section contact-section" id="contact">
-
-      <div class="container">
-
-        <div class="contact-card reveal">
-
-          <p class="eyebrow">Contact</p>
-
-          <h2>
-            Construisons la prochaine étape.
-          </h2>
-
-          <p>
-            Je souhaite poursuivre mon développement dans les métiers
-            commerciaux et évoluer dans l’univers du sport.
-          </p>
-
-          <div class="contact-actions">
-
-            <a
-              class="button button-light"
-              href="mailto:mathieupadovano@gmail.com"
-            >
-              Me contacter
-            </a>
-
-            <a
-              class="button button-outline-light"
-              href="assets/documents/cv-mathieu-padovano.pdf"
-              target="_blank"
-              rel="noopener"
-            >
-              Consulter mon CV
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- Pied de page -->
-  <footer class="site-footer">
-
-    <div class="container footer-content">
-
-      <p>
-        © 2026 Mathieu Padovano
-      </p>
-
-      <p>
-        Portfolio BUT Techniques de Commercialisation
-      </p>
-
+  <a class="scroll-cue" href="#intro"><span>Explorer</span><i></i></a>
+</section>
+
+<section class="intro-band" id="intro">
+  <div class="container intro-grid reveal">
+    <p class="section-label">Mon approche</p>
+    <p class="intro-statement">Une culture du terrain, enrichie par l’analyse. Observer les usages, structurer l’action et faire progresser l’expérience — côté client comme côté équipe.</p>
+  </div>
+</section>
+
+<section class="section competencies-section" id="competences">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Compétences</p><h2>Quatre facettes d’un même métier.</h2><p>Le portfolio réunit les compétences communes du BUT et les deux compétences spécifiques au parcours Marketing et Management du Point de Vente.</p></div>
+    <div class="competency-grid">
+      <a class="competency-card theme-purple reveal" href="competences/marketing.html"><span class="competency-index">01</span><p>Marketing</p><h3>Conduire les actions marketing</h3><small>Observer, analyser, valoriser l’offre.</small><i>↗</i></a>
+      <a class="competency-card theme-coral reveal" href="competences/vente.html"><span class="competency-index">02</span><p>Vente</p><h3>Vendre une offre commerciale</h3><small>Écouter, argumenter, conclure.</small><i>↗</i></a>
+      <a class="competency-card theme-green reveal" href="competences/pilotage.html"><span class="competency-index">03</span><p>Retail</p><h3>Piloter un espace de vente</h3><small>Organiser, mesurer, optimiser.</small><i>↗</i></a>
+      <a class="competency-card theme-amber reveal" href="competences/management.html"><span class="competency-index">04</span><p>Management</p><h3>Manager une équipe commerciale</h3><small>Transmettre, coordonner, fédérer.</small><i>↗</i></a>
     </div>
+  </div>
+</section>
 
-  </footer>
+<section class="section featured-work">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Expériences choisies</p><h2>Des preuves, pas seulement des intentions.</h2></div>
+    <div class="featured-grid">
+      <a class="featured-card featured-wide reveal" href="competences/marketing.html#cas-1"><img src="assets/images/intersport/rayon-running-apres.webp" alt="Rayon running après la réimplantation"><div><span>Intersport · Printemps 2026</span><h3>Réimplanter le running pour rendre l’offre visible dès l’entrée du rayon.</h3></div></a>
+      <a class="featured-card reveal" href="competences/vente.html#cas-3"><img src="assets/images/manhattan-hot-dog/forte-affluence.webp" alt="Stand Manhattan Hot Dog lors d’une forte affluence"><div><span>Événementiel</span><h3>Vendre avec efficacité dans un environnement à très forte affluence.</h3></div></a>
+      <a class="featured-card reveal" href="competences/management.html#cas-2"><img src="assets/images/agorae/equipe-epi-iut.webp" alt="Équipe EPI-IUT"><div><span>Agoraé · Projet collectif</span><h3>Transmettre des pratiques et faire vivre un lieu solidaire.</h3></div></a>
+    </div>
+  </div>
+</section>
 
+<section class="section timeline-section">
+  <div class="container">
+    <div class="section-heading reveal"><p class="eyebrow">Parcours</p><h2>Une progression construite au contact du réel.</h2></div>
+    <div class="timeline">
+      <article class="timeline-item reveal"><time>2025–2026</time><div><p>Intersport Marseille Grand Littoral</p><h3>Alternant vendeur-conseil · rayon chaussures</h3><span>Vente, réimplantation, stocks, opérations commerciales et accompagnement des collaborateurs.</span></div></article>
+      <article class="timeline-item reveal"><time>2022–2026</time><div><p>Manhattan Hot Dog</p><h3>Gestion de stand en événementiel</h3><span>Vente, organisation opérationnelle, gestion des flux et coordination d’équipes.</span></div></article>
+      <article class="timeline-item reveal"><time>2025–2026</time><div><p>Agoraé · EPI-IUT</p><h3>Pôle Expérience Client</h3><span>Animation du lieu, transmission, organisation d’événements et engagement solidaire.</span></div></article>
+      <article class="timeline-item reveal"><time>Rentrée 2026</time><div><p>KEDGE Business School</p><h3>Programme Grande École</h3><span>Approfondir la stratégie commerciale et préparer un projet de commercial terrain dans le sport.</span></div></article>
+    </div>
+  </div>
+</section>
 
-  <script src="assets/js/main.js"></script>
+<section class="section home-cta">
+  <div class="container cta-card reveal"><p class="eyebrow">La suite</p><h2>Transformer l’expérience terrain en impact commercial.</h2><p>Mon objectif : évoluer vers un métier de commercial terrain dans l’univers du sport et accompagner le développement des marques auprès des enseignes et des points de vente.</p><div><a class="button light" href="bilan.html">Lire mon bilan</a><a class="button outline-light" href="mailto:mathieupadovano@gmail.com">Me contacter</a></div></div>
+</section>
+</main>
 
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html"><span>MP</span><i>.</i></a>
+      <p>Portfolio BUT Techniques de Commercialisation<br>Marketing et Management du Point de Vente.</p>
+    </div>
+    <div class="footer-links">
+      <a href="a-propos.html">À propos</a>
+      <a href="competences/marketing.html">Marketing</a>
+      <a href="competences/vente.html">Vente</a>
+      <a href="competences/pilotage.html">Pilotage</a>
+      <a href="competences/management.html">Management</a>
+    </div>
+    <div class="footer-contact">
+      <p>Marseille · France</p>
+      <a href="mailto:mathieupadovano@gmail.com">mathieupadovano@gmail.com</a>
+      <a href="assets/documents/cv-mathieu-padovano-public.pdf" target="_blank" rel="noopener">CV public ↗</a>
+    </div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-year></span> Mathieu Padovano</span><span>Conçu pour GitHub Pages</span></div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Agrandissement de l’image" hidden>
+  <button class="lightbox-close" type="button" aria-label="Fermer">×</button>
+  <img src="" alt="">
+  <p></p>
+</div>
 </body>
 </html>
